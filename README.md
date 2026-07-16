@@ -126,7 +126,7 @@ Go to back to Virtual Machine.
   </p>
   <p>
   2. **Installing Active Directory**
-    </p>
+  </p>
 
     <p>
   Log in to your DC-1 remote computer, using its' IP address to be able to install Active Directory Services.
