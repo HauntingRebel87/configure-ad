@@ -126,9 +126,7 @@ Go to back to Virtual Machine.
   </p>
   <p>
   2. **Installing Active Directory**
-  </p>
 
-    <p>
   Log in to your DC-1 remote computer, using its' IP address to be able to install Active Directory Services.
   Once logged in, click the start menu, and click on Server Manager.
   Click on Roles. This is where we will add Active Directory.
@@ -142,12 +140,9 @@ Go to back to Virtual Machine.
   Go back to your Service Manager, click on the yellow triangle. We are going to promote DC-1 and add a new forest.
   </p>
 
-  <p>
   Use mydomain.com, click next and make up a password, uncheck the box, click next until last screen and hit install.
   It will automatically restart the computer. Log back into DC-1 as your domain (mydomain.com/username).
-    </p>
     
-    <p>
   Click on start and go to Active Directory Admin Center under Windows Admin Tools.
   Create an Organizational Unit by right clicking on local, new and then organization.
   Under name we will add _Employees, and save. We will need to make another one for _Admins. Can names the Organization Units how you want, but doing it this way allows us to be able to see these folders easier.
